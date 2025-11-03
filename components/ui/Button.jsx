@@ -1,0 +1,26 @@
+"use client";
+import Link from "next/link";
+function cn(...a){return a.filter(Boolean).join(" ");}
+
+export default function UIButton({
+  as: As = "button",
+  href,
+  type = "button",
+  variant = "solid",
+  size = "md",
+  className = "",
+  children,
+  ...props
+}) {
+  const base = "p-[10px] rounded-full border-0 inline-flex items-center justify-center transition-transform duration-200 hover:scale-105";
+  const sizes = { sm: "h-8 px-3 text-xs", md: "h-[35px] p-[10px] px-4 text-sm", lg: "h-[35px] p-[10px] px-5 text-sm" };
+  const solid = "text-[var(--color-scheme-2-text)] bg-[var(--color-electric-violet)] active:bg-[var(--color-electric-violet-dark)]";
+  const outline = "bg-transparent border-2 active:bg-[var(--color-neutral-dark)] ";
+  
+
+  const cls = cn(base, sizes[size], variant === "solid" ? solid : outline, className);
+
+  if (As === Link) return <Link href={href ?? "#"} className={cls} {...props}>{children}</Link>;
+  if (As === "a")   return <a href={href ?? "#"} className={cls} {...props}>{children}</a>;
+  return <button type={type} className={cls} {...props}>{children}</button>;
+}

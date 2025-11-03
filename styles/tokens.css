@@ -1,0 +1,84 @@
+/* === Figma Color custom properties === */
+
+:root {
+    --color-scheme-1-background: var(--color-electric-violet-lighter);
+    --color-neutral-darkest: #0b0b0b;
+    --color-scheme-1-border: var(--color-neutral-darkest);
+    --color-scheme-1-text: var(--color-neutral-darkest);
+    --color-neutral-lighter: #dadada;
+    --color-white: #fff;
+    --color-neutral-lightest: #f2f2f2;
+    --color-neutral-light: #b5b5b5;
+    --color-neutral: #858585;
+    --color-neutral-dark: #545454;
+    --color-neutral-darker: #232323;
+    --opacity-transparent: rgba(255, 255, 255, 0);
+    --color-scheme-1-foreground: var(--color-electric-violet-lighter);
+    --color-scheme-1-accent: var(--color-electric-violet);
+    --opacity-white-5: rgba(255, 255, 255, 0.05);
+    --opacity-white-10: rgba(255, 255, 255, 0.1);
+    --opacity-white-15: rgba(255, 255, 255, 0.15);
+    --opacity-white-20: rgba(255, 255, 255, 0.2);
+    --opacity-white-30: rgba(255, 255, 255, 0.3);
+    --opacity-white-40: rgba(255, 255, 255, 0.4);
+    --opacity-white-50: rgba(255, 255, 255, 0.5);
+    --opacity-white-60: rgba(255, 255, 255, 0.6);
+    --opacity-neutral-darkest-5: rgba(11, 11, 11, 0.05);
+    --opacity-neutral-darkest-10: rgba(11, 11, 11, 0.1);
+    --opacity-neutral-darkest-15: rgba(11, 11, 11, 0.15);
+    --opacity-neutral-darkest-20: rgba(11, 11, 11, 0.2);
+    --opacity-neutral-darkest-30: rgba(11, 11, 11, 0.3);
+    --opacity-neutral-darkest-40: rgba(11, 11, 11, 0.4);
+    --opacity-neutral-darkest-50: rgba(11, 11, 11, 0.5);
+    --opacity-neutral-darkest-60: rgba(11, 11, 11, 0.6);
+    --color-electric-violet-lightest: #f0e5ff;
+    --color-electric-violet-lighter: #e2ccff;
+    --color-electric-violet-light: #994cff;
+    --color-electric-violet: #6e00ff;
+    --color-electric-violet-dark: #5800cc;
+    --color-electric-violet-darker: #2c0066;
+    --color-electric-violet-darkest: #21004c;
+    --color-orchid-lightest: #fbecf9;
+    --color-orchid-lighter: #f8d9f4;
+    --color-orchid-light: #e77ad8;
+    --color-orchid: #dd42c8;
+    --color-orchid-dark: #b034a0;
+    --color-orchid-darker: #581a50;
+    --color-orchid-darkest: #42133c;
+    --color-blue-lightest: #e6e5ff;
+    --color-blue-lighter: #cdccff;
+    --color-blue-light: #524cff;
+    --color-blue: #0900ff;
+    --color-blue-dark: #0700cc;
+    --color-blue-darker: #030066;
+    --color-blue-darkest: #02004c;
+    --color-tasman-lightest: #fbfbfb;
+    --color-tasman-lighter: #f7f8f7;
+    --color-tasman-light: #e5e7e5;
+    --color-tasman: #dadddb;
+    --color-tasman-dark: #aeb0af;
+    --color-tasman-darker: #575857;
+    --color-tasman-darkest: #414241;
+    --color-scheme-2-text: var(--color-white);
+    --color-scheme-2-background: var(--color-neutral-darkest);
+    --color-scheme-2-border: var(--color-white);
+    --color-scheme-2-accent: var(--color-white);
+    --color-scheme-2-foreground: var(--color-neutral-darkest);
+    --color-scheme-3-text: var(--color-white);
+    --color-scheme-3-background: var(--color-orchid-darker);
+    --color-scheme-3-border: var(--color-white);
+    --color-scheme-3-accent: var(--color-white);
+    --color-scheme-3-foreground: var(--color-orchid-darker);
+    --color-scheme-4-text: var(--color-white);
+    --color-scheme-4-background: var(--color-electric-violet-darker);
+    --color-scheme-4-border: var(--color-white);
+    --color-scheme-4-accent: var(--color-white);
+    --color-scheme-4-foreground: var(--color-electric-violet-darker);
+  }
+  
+  /* === Figma Fonts custom properties === */
+  :root {
+    --font-family: "Inter", sans-serif;
+    --second-family: "Unbounded", "Inter", sans-serif;
+  }
+  

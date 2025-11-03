@@ -1,4 +1,4 @@
-# 💼 yull.dev — Personal Portfolio
+# 💼 YULL.DEV — Personal Portfolio
 
 ![Project preview](./public/screenshot.png)
 
