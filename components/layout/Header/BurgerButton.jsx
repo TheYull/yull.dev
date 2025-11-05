@@ -1,18 +1,38 @@
 "use client";
 
-import { Menu } from "lucide-react";
+import { useState } from "react";
+import { motion } from "framer-motion";
 
-export default function BurgerButton({ open, onOpen }) {
+export default function BurgerButton() {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+
+  const lineStyle = "bg-[var(--color-scheme-2-text)] w-[30px] h-[2px] block";
+
   return (
     <button
-      type="button"
-      className="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-md text-white hover:bg-white/10"
-      onClick={onOpen}
-      aria-label="Open menu"
-      aria-controls="mobile-menu"
-      aria-expanded={open}
+      onClick={toggle}
+      className={`w-[30px] h-[20px] border-0 bg-transparent flex flex-col justify-center items-center gap-[3px] `}
+      aria-label="Toggle menu"
     >
-      <Menu size={22} />
+
+      <motion.span
+        className={lineStyle}
+        animate={isOpen ? { rotate: 45, y: 5 } : { rotate: 0, y: 0 }}
+        transition={{ duration: 0.3 }}
+      />
+
+      <motion.span
+        className={lineStyle}
+        animate={isOpen ? { opacity: 0 } : { opacity: 1 }}
+        transition={{ duration: 0.2 }}
+      />
+
+      <motion.span
+        className={lineStyle}
+        animate={isOpen ? { rotate: -45, y: -5 } : { rotate: 0, y: 0 }}
+        transition={{ duration: 0.3 }}
+      />
     </button>
   );
 }

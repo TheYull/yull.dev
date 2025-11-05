@@ -1,15 +1,14 @@
 import Link from "next/link";
 import { NAV, LINK_FOUR } from "./NavLinks";
-import Logo from "./Logo";
 import LinkFour from "./LinkFour";
 
-export default function MainNav() {
+export default function MainNav({ className = "" }) {
     return (
     <nav
       aria-label="Main"
-        className="flex items-center justify-between w-[550px]"
-        >
-        <Logo />
+        className={`flex items-center justify-evenly w-[550px] ${className}`}
+      >
+        
       {NAV.map((item) => (
         <Link
           key={item.label}
