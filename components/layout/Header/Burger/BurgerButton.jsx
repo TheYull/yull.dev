@@ -1,18 +1,18 @@
 "use client";
 
-import { useState } from "react";
 import { motion } from "framer-motion";
+import { useBurger } from "./BurgerContext";
 
-export default function BurgerButton() {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggle = () => setIsOpen(!isOpen);
+export default function BurgerButton({ className = "" }) {
 
+  const { isOpen, toggle } = useBurger();
   const lineStyle = "bg-[var(--color-scheme-2-text)] w-[30px] h-[2px] block";
 
   return (
     <button
+      type="button"
       onClick={toggle}
-      className={`w-[30px] h-[20px] border-0 bg-transparent flex flex-col justify-center items-center gap-[3px] `}
+      className={`w-[30px] h-[20px] border-0 bg-transparent flex flex-col justify-center items-center gap-[3px] ${className}`}
       aria-label="Toggle menu"
     >
 

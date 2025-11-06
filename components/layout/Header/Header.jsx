@@ -1,17 +1,19 @@
 "use client";
 
 import Container from "@/components/ui/Container";
-import MainNav from "./MainNav";
+import MainNav from "./Links/MainNav";
 import CtaButtons from "./CtaButtons";
 import Logo from "./Logo";
-import BurgerButton from "./BurgerButton";
-// import MobileNav from "./MobileNav";
+import BurgerButton from "./Burger/BurgerButton";
+import MobileNav from "./Burger/MobileNav";
+import BurgerProvider from "./Burger/BurgerContext";
 
 export default function Header() {
 
   return (
-    <>
-    <header className="py-[18px] px-[5%] flex justify-center items-center bg-[var(--color-scheme-2-background)]">
+    <BurgerProvider>
+
+    <header className="lg:h-[72px] md:h-[64px] py-[18px] flex justify-center items-center bg-[var(--color-scheme-2-background)]">
       <Container className="flex items-center justify-between">
 
         <div className="flex items-center">
@@ -20,10 +22,13 @@ export default function Header() {
         </div>
         
         <CtaButtons className="hidden lg:flex" />
-        <BurgerButton  className="flex lg:hidden" />
+        <BurgerButton className="md:flex lg:hidden" />
+          
       </Container>
-      
-    </header>
-    </>
+      </header>
+
+      <MobileNav />
+
+    </BurgerProvider>
   );
 }

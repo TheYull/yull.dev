@@ -6,7 +6,7 @@ export default function MainNav({ className = "" }) {
     return (
     <nav
       aria-label="Main"
-        className={`flex items-center justify-evenly w-[550px] ${className}`}
+        className={`items-center justify-evenly w-[550px] ${className}`}
       >
         
       {NAV.map((item) => (
