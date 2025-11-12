@@ -1,7 +1,7 @@
 export const NAV = [
-    { label: "Link One", href: "#one" },
-    { label: "Link Two", href: "#two" },
-    { label: "Link Three", href: "#three" },
+    { key: "about", href: "#about" },
+    { key: "skills", href: "#skills" },
+    { key: "contact", href: "#contact" }
 ];
   
-export const LINK_FOUR = { label: "Link Four", href: "#four" };
+export const LINK_FOUR = { key: "others", href: "#others" };

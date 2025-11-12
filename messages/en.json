@@ -1,0 +1,39 @@
+{
+    "header": {
+    "nav": {
+        "about": "About",
+        "skills": "Skills",
+        "contact": "Contact",
+        "others": "Others",
+        "projects": "Projects",
+        "blog": "Blog"
+    },
+    "cta": {
+        "hire": "Hire me",
+        "download": "Download CV"
+    }
+  },
+  "hero": {
+    "title": "Creating modern web solutions for business",
+    "subtitle": "Development of interfaces in React with responsive layout for mobile devices. Structured component organization with reusability and clear naming. Animation and section adjustments according to the provided design.",
+    "primary": "Projects",
+    "secondary": "Contact"
+  },
+  "about": {
+        "title": "About me",
+        "text": "I build responsive interfaces, set up React/Next.js projects and integrate UI with backends."
+  },
+  "blog": {
+    "title": "Blog",
+    "posts": {
+        "nextjs-i18n-setup": {
+        "title": "Setting up i18n in Next.js App Router",
+        "excerpt": "How I added multi-language routing and header translations."
+        },
+        "react-movie-library-filters": {
+        "title": "Reusable filters for a React movie library",
+        "excerpt": "Turning TMDB data into categories and filters."
+        }
+    }
+}
+}

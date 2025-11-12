@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useBurger } from "./BurgerContext";
 
-export default function BurgerButton({ className = "" }) {
+export function BurgerButton({ className = "" }) {
 
   const { isOpen, toggle } = useBurger();
   const lineStyle = "bg-[var(--color-scheme-2-text)] w-[30px] h-[2px] block";

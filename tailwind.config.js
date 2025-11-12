@@ -13,11 +13,11 @@ module.exports = {
           sans: ['"Inter"', 'sans-serif'],
           heading: ['"Unbounded"', 'sans-serif'],
         },
-        colors: {
-          'neutral-darkest': '#0b0b0b',
-          'electric-violet': '#6e00ff',
-          'electric-violet-dark': '#5800cc',
-        },
+        // colors: {
+        //   'neutral-darkest': '#0b0b0b',
+        //   'electric-violet': '#6e00ff',
+        //   'electric-violet-dark': '#5800cc',
+        // },
       },
     },
     plugins: [],

@@ -1,18 +1,21 @@
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import { NAV, LINK_FOUR } from "./NavLinks";
-import LinkFour from "./LinkFour";
+import { LinkFour } from "./LinkFour/LinkFour";
 
-export default function MainNav({ className = "" }) {
+export function MainNav({ className = "", locale }) {
+  const t = useTranslations("header");
+
     return (
     <nav
       aria-label="Main"
-        className={`items-center justify-evenly w-[550px] ${className}`}
+        className={`items-center justify-evenly lg:w-[550px] ${className}`}
       >
         
       {NAV.map((item) => (
         <Link
-          key={item.label}
-          href={item.href}
+          key={item.key}
+          href={`/${locale}${item.href}`}
           className="no-underline
           font-normal 
           text-[18px] 
@@ -22,11 +25,12 @@ export default function MainNav({ className = "" }) {
           hover:scale-105
           active:text-[var(--color-blue-lighter)]"
         >
-          {item.label}
+          {t(`nav.${item.key}`)}
         </Link>
       ))}
 
-      <LinkFour href={LINK_FOUR.href} />
+      <LinkFour href={`/${locale}${LINK_FOUR.href}`}
+        label={t(`nav.${LINK_FOUR.key}`)} />
     </nav>
   );
 }

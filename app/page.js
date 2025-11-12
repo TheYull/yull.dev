@@ -1,9 +1,6 @@
-import { Hero } from "@/components/sections/Hero/Hero";
+import { redirect } from "next/navigation";
+import { defaultLocale } from "@/lib/i18n";
 
 export default function Page() {
-  return (
-    <>
-      <Hero />
-    </>
-  );
+  redirect(`/${defaultLocale}`);
 }

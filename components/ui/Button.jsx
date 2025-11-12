@@ -1,8 +1,9 @@
 "use client";
 import Link from "next/link";
+
 function cn(...a){return a.filter(Boolean).join(" ");}
 
-export default function UIButton({
+export function UIButton({
   as: As = "button",
   href,
   type = "button",

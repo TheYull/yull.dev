@@ -5,7 +5,7 @@ import { createContext, useContext, useState } from "react";
 
 const BurgerContext = createContext(null);
 
-export default function BurgerProvider({ children }) {
+export function BurgerProvider({ children }) {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen((p) => !p);
     const close = () => setIsOpen(false);
