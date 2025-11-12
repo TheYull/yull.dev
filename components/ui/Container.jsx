@@ -1,12 +1,10 @@
 "use client";
 
-import React from "react";
-
 function cn(...args) {
   return args.filter(Boolean).join(" ");
 }
 
-export default function Container({
+export function Container({
   as: Tag = "div",
   className = "",
     children,
@@ -14,7 +12,7 @@ export default function Container({
 }) {
   return (
     <Tag
-      className={cn("mx-auto w-full px-4 sm:px-[20px] lg:px-[80px]", className)}
+      className={cn("w-full max-w-[1200px] mx-auto", className)}
       {...props} 
     >
       {children}

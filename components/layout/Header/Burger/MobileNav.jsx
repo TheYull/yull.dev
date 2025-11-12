@@ -1,9 +1,9 @@
-import Container from "@/components/ui/Container";
+import { Container } from "@/components/ui/Container";
 import { AnimatePresence, motion } from "framer-motion";
-import MainNav from "../Links/MainNav";
+import { MainNav } from "../Links/MainNav";
 import { useBurger } from "./BurgerContext";
 
-export default function MobileNav({ className = "" }) {
+export function MobileNav({ className = "" }) {
     const { isOpen } = useBurger();
 
     return (

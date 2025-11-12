@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { ChevronDown } from "lucide-react";
 
-export default function LinkFour({ href }) {
+export function LinkFour({ href, label }) {
+  // const { isOpen, toggle } = usePanelMenu();
+  
   return (
     <div className="relative flex items-center gap-2">
       <Link
@@ -17,10 +19,9 @@ export default function LinkFour({ href }) {
         no-underline 
         transition-transform duration-200
         hover:scale-105
-        active:text-[var(--color-blue-lighter)]
-        "
+        active:text-[var(--color-blue-lighter)]"
       >
-        <span>Link Four</span>
+        <span>{ label }</span>
         <ChevronDown
           size={20}
         />
