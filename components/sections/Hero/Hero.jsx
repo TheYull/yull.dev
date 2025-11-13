@@ -10,11 +10,11 @@ export function Hero() {
 
   return (
     <section className="w-full bg-[var(--color-scheme-1-background)]">
-      <Container className="flex flex-col md:flex-row justify-between ">
+      <Container className="flex flex-col sm:flex-row justify-between ">
           <div className="max-w-[50%] section-shell">
             <h1
               className="max-w-[370px]
-                  ont-[var(--second-family)]
+                  font-[var(--second-family)]
                   font-bold
                   text-[40px]
                   leading-[100%]
@@ -48,7 +48,7 @@ export function Hero() {
         </div>
 
         
-        <div className="relative overflow-hidden">
+        <div className="">
           <motion.div
               initial={reduce ? { opacity: 0 } : { x: 96, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
@@ -57,9 +57,9 @@ export function Hero() {
                   ? { duration: 0.2 }
                   : { type: "spring", stiffness: 120, damping: 18, mass: 0.6 }
               }
-              className="h-full w-full"
+              className="h-[375px] sm:h-full flex align-center"
           >
-            <div className="relative h-[260px] md:h-full w-full">
+            <div className="md:h-full w-full">
               <img src="/hero-photo.png" alt="Developer" className="h-full w-full object-cover"/>
             </div>
           </motion.div>
