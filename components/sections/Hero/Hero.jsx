@@ -14,13 +14,11 @@ export function Hero() {
           <div className="max-w-[50%] section-shell">
             <h1
               className="max-w-[370px]
-                  font-[var(--second-family)]
                   font-bold
                   text-[40px]
                   leading-[100%]
                   tracking-[-0.01em]
                   uppercase
-                  text-[var(--color-scheme-1-text)]
                   md:text-[40px] md:leading-[95%]
                   lg:text-[64px]"
             >

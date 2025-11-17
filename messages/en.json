@@ -15,10 +15,13 @@
   },
   "hero": {
     "title": "Creating modern web solutions for business",
-    "subtitle": "Development of interfaces in React with responsive layout for mobile devices. Structured component organization with reusability and clear naming. Animation and section adjustments according to the provided design.",
+    "subtitle": "Development of interfaces in React/Next.js with responsive layout for mobile devices. Structured component organization with reusability and clear naming. Animation and section adjustments according to the provided design.",
     "primary": "Projects",
     "secondary": "Contact"
   },
+  "logos": {
+        "title": "Used in project development"
+    },
   "about": {
         "title": "About me",
         "text": "I build responsive interfaces, set up React/Next.js projects and integrate UI with backends."

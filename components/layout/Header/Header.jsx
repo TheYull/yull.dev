@@ -13,7 +13,7 @@ export default function Header({ locale}) {
   return (
     <BurgerProvider>
 
-    <header className="lg:px-[64px] px-[20px] lg:py-[26px] py-[20px] flex justify-center items-center bg-[var(--color-scheme-2-background)]">
+    <header className="section--black lg:px-[64px] px-[20px] lg:py-[26px] py-[20px] flex justify-center items-center">
       <Container className="flex items-center justify-between">
 
         <div className="flex items-center">
