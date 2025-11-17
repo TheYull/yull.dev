@@ -18,3 +18,15 @@ h1, h2, h3, h4, h5, h6 {
     @apply py-[64px] lg:py-[112px] px-[20px] md:px-[30px] xl:px-[80px];
   }
 }
+
+@layer utilities {
+  .section--black {
+    @apply text-[var(--color-scheme-2-text)] bg-[var(--color-scheme-2-background)];
+  }
+  .section--pink {
+    @apply text-[var(--color-scheme-1-text)] bg-[var(--color-scheme-1-background)];
+  }
+  .section--white {
+    @apply text-[var(--color-scheme-1-text)] bg-[var(--color-white)];
+  }
+}

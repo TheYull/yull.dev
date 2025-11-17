@@ -1,0 +1,1 @@
+export { LogosMarquee } from "./LogosMarquee";
