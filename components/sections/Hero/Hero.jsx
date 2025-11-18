@@ -25,7 +25,7 @@ export function Hero() {
               <span className="block">{t("title")}</span>
               
             </h1>
-            <p className="pt-[20px] lg:pt-[24px] pb-[24px] lg:pb-[32px]">{t("subtitle")}</p>
+            <p className="font-normal pt-[20px] lg:pt-[24px] pb-[24px] lg:pb-[32px]">{t("subtitle")}</p>
 
             <div className="flex gap-[10px]">
               <UIButton

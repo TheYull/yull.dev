@@ -24,9 +24,22 @@
     },
   "about": {
         "title": "About me",
-        "text": "I build responsive interfaces, set up React/Next.js projects and integrate UI with backends."
+        "text": "I am a digital architect merging design and technology into immersive cybernetic landscapes. My work transforms complex ideas into elegant, interactive narratives that push the limits of human-digital interaction."
   },
-  "blog": {
+  "frontend": {
+        "title": "I am a frontend developer.",
+        "text": "I craft digital experiences that blur the lines between human perception and technological innovation. My work transforms complex systems into elegant, intuitive interfaces that breathe life into abstract concepts."
+    },
+    "skillset": {
+        "title": "My abilities"
+    },
+    "technical": {
+        "title": "skills and technologies",
+        "text": "Technologies that I have studied and regularly use in my projectsTechnologies that I have studied and regularly use in my projects"
+    },
+
+
+    "blog": {
     "title": "Blog",
     "posts": {
         "nextjs-i18n-setup": {
