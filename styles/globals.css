@@ -12,6 +12,9 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--second-family);
 }
+h6 {
+  @apply font-semibold pb-[16px] text-[16px] leading-normal;
+}
 
 @layer components {
   .section-shell {
