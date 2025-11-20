@@ -11,21 +11,12 @@ export function Hero() {
   return (
     <section className="w-full bg-[var(--color-scheme-1-background)]">
       <Container className="flex flex-col sm:flex-row justify-between ">
-          <div className="max-w-[50%] section-shell">
-            <h1
-              className="max-w-[370px]
-                  font-bold
-                  text-[40px]
-                  leading-[100%]
-                  tracking-[-0.01em]
-                  uppercase
-                  md:text-[40px] md:leading-[95%]
-                  lg:text-[64px]"
-            >
+          <div className="sm:max-w-[50%] section-shell">
+            <h1>
               <span className="block">{t("title")}</span>
               
             </h1>
-            <p className="font-normal pt-[20px] lg:pt-[24px] pb-[24px] lg:pb-[32px]">{t("subtitle")}</p>
+            <p className="font-normal text-[20px] leading-normal pt-[20px] lg:pt-[24px] pb-[24px] lg:pb-[32px]">{t("subtitle")}</p>
 
             <div className="flex gap-[10px]">
               <UIButton
@@ -58,7 +49,7 @@ export function Hero() {
               className="h-[375px] sm:h-full flex align-center"
           >
             <div className="md:h-full w-full">
-              <img src="/hero-photo.png" alt="Developer" className="h-full w-full object-cover"/>
+              <img src="/photo/img_1.png" alt="Developer" className="h-full w-full object-cover"/>
             </div>
           </motion.div>
           
