@@ -24,11 +24,17 @@
     },
   "about": {
         "title": "About me",
-        "text": "I am a digital architect merging design and technology into immersive cybernetic landscapes. My work transforms complex ideas into elegant, interactive narratives that push the limits of human-digital interaction."
+        "text": "Front-end development focused on intuitive interfaces and business goals. Websites and landing pages on React/Next.js with a well-thought-out structure, adaptability, and micro-animations that support the brand and do not overload the user."
   },
-  "frontend": {
+  "craft": {
         "title": "I am a frontend developer.",
-        "text": "I craft digital experiences that blur the lines between human perception and technological innovation. My work transforms complex systems into elegant, intuitive interfaces that breathe life into abstract concepts."
+        "description": "I create web interfaces that combine aesthetics and functionality. I work with landing pages and small websites on React/Next.js, build component architecture, and think through adaptability, animations, and performance. It is important to me that the design is not only beautiful, but also understandable and convenient for people.",
+        "focusAreas": [
+            "Development of landing pages and small websites on React/Next.js",
+            "Responsive layout, accessibility, and basic SEO optimization",
+            "Component structure with clear naming and reusability",
+            "Animations and micro-interactions that emphasize the brand rather than distract"
+        ]
     },
     "skillset": {
         "title": "My abilities"
