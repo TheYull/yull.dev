@@ -49,7 +49,7 @@ export function Hero() {
               className="h-[375px] sm:h-full flex align-center"
           >
             <div className="md:h-full w-full">
-              <img src="/photo/img_1.png" alt="Developer" className="h-full w-full object-cover"/>
+              <img src="/photo/img_1.avif" alt="Developer" className="h-full w-full object-cover" />
             </div>
           </motion.div>
           
