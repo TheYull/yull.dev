@@ -10,9 +10,9 @@ export function About() {
     return (
         <section className="section-shell section--pink text-center">
             <Container className="flex flex-col items-center">
-                <h6>{t("title")}</h6>
+                <h6>{t("label")}</h6>
                 <div className="max-w-[768px] lg:pb-[32px] pb-[24px]">
-                    <h5 className="font-bold uppercase lg:text-[32px] text-[20px]">{t("text")}</h5>
+                    <h5 className="font-bold uppercase lg:text-[32px] text-[20px]">{t("title")}</h5>
                 </div>
                 <div className="flex gap-[10px]">
                     <UIButton

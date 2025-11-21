@@ -23,8 +23,8 @@
         "title": "Used in project development"
     },
   "about": {
-        "title": "About me",
-        "text": "Front-end development focused on intuitive interfaces and business goals. Websites and landing pages on React/Next.js with a well-thought-out structure, adaptability, and micro-animations that support the brand and do not overload the user."
+        "label": "About me",
+        "title": "Front-end development focused on intuitive interfaces and business goals. Websites and landing pages on React/Next.js with a well-thought-out structure, adaptability, and micro-animations that support the brand and do not overload the user."
   },
   "craft": {
         "title": "I am a frontend developer.",
@@ -36,12 +36,46 @@
             "Animations and micro-interactions that emphasize the brand rather than distract"
         ]
     },
-    "skillset": {
-        "title": "My abilities"
+    "technologies": {
+      "label": "Skills",
+        "title": "technologies",
+        "text": "Technologies that I have studied and regularly use in my projects"
     },
-    "technical": {
-        "title": "skills and technologies",
-        "text": "Technologies that I have studied and regularly use in my projectsTechnologies that I have studied and regularly use in my projects"
+    "process": {
+        "label": "Process",
+        "title": "Process",
+        "stepsList": [
+          {
+            "id": "strategy",
+            "title": "Strategy",
+            "description": ""
+          },
+          {
+            "id": "agreement",
+            "title": "Agreement",
+            "description": ""
+          },
+          {
+            "id": "prepayment",
+            "title": "Prepayment",
+            "description": ""
+          },
+          {
+            "id": "development",
+            "title": "Development",
+            "description": ""
+          },
+          {
+            "id": "completion",
+            "title": "Completion",
+            "description": ""
+          },
+          {
+            "id": "support",
+            "title": "Support",
+            "description": ""
+          }
+        ]
     },
 
 

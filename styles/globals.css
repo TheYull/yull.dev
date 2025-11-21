@@ -69,6 +69,10 @@ h6 {
     @apply bg-[var(--color-scheme-2-background)]
           text-[var(--color-scheme-2-text)];
   }
+  .section--light-black {
+    @apply bg-[#191919]
+          text-[var(--color-scheme-2-text)];
+  }
   .section--pink {
     @apply bg-[var(--color-scheme-1-background)]
           text-[var(--color-scheme-1-text)];
