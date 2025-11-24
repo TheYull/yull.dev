@@ -1,18 +1,18 @@
-"use client"
+"use client";
 import { Container } from "@/components/ui/Container";
 import { useTranslations } from "next-intl";
 
-export function Footer() {
-    const t = useTranslations("footer");
+export function FAQs() {
+    const t = useTranslations("faqs");
 
     return (
-        <footer className="section-shell section--black text-center hidden">
+        <section className="section-shell section--black hidden">
             <Container>
-          <div id="footer">
+                <div id="faqs">
                     {/* <h6>{t("label")}</h6> */}
                     {/* <h2>{t("title")}</h2> */}
                 </div>
             </Container>
-        </footer>
+        </section>
     );
 }
