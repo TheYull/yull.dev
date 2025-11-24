@@ -39,43 +39,88 @@
     "technologies": {
       "label": "Skills",
         "title": "technologies",
-        "text": "Technologies that I have studied and regularly use in my projects"
+        "text": "Technologies that I have studied and regularly use in my projects",
+        "readMore": "Documentation",
+        "cta": {
+            "more": "View all",
+            "less": "Show less" 
+        },
+        "descriptions": {
+            "html5": "Semantic markup that gives structure and meaning to every page.",
+            "css3": "Modern styling with layouts, animations and responsive design.",
+            "javascript": "Programming language that powers interactions in the browser.",
+            "bootstrap": "UI framework with ready-made components for quick prototyping.",
+            "mui": "React UI library with accessible and customizable components.",
+            "react": "Component-based library for building interactive interfaces.",
+            "nextjs": "Full-stack React framework for fast, SEO-friendly applications.",
+            "i18next": "Translation engine that helps manage multilingual interfaces.",
+            "tailwindcss": "Utility-first CSS that keeps styles consistent and maintainable.",
+            "motion": "Animation library for smooth transitions and micro-interactions."
+        }
     },
     "process": {
-        "label": "Process",
+        "label": "Cooperation",
         "title": "Process",
         "stepsList": [
           {
             "id": "strategy",
-            "title": "Strategy",
+            "title": "Analysis and strategy",
             "description": ""
           },
           {
             "id": "agreement",
-            "title": "Agreement",
+            "title": "",
             "description": ""
           },
           {
             "id": "prepayment",
-            "title": "Prepayment",
+            "title": "",
             "description": ""
           },
           {
             "id": "development",
-            "title": "Development",
+            "title": "",
             "description": ""
           },
           {
             "id": "completion",
-            "title": "Completion",
+            "title": "",
             "description": ""
           },
           {
             "id": "support",
-            "title": "Support",
+            "title": "",
             "description": ""
           }
         ]
+    },
+    "price": {
+        "label": "price",
+        "title": "Pricing"
+    },
+    "proposal":{
+        "label": "Proposal",
+        "title": "Let's create a design together."
+    },
+    "portfolio": {
+        "label": "portfolio",
+        "title": "Portfolio"
+    },
+    "reviews": {
+        "title": "",
+        "subtitle": ""
+    },
+    "faqs": {
+        "title": "FAQs",
+        "subtitle": ""
+    },
+    "contacts": {
+        "label": "contacts",
+        "title": "",
+        "subtitle": ""
+    },
+    "footer": {
+
     },
 
 
