@@ -65,32 +65,32 @@
           {
             "id": "strategy",
             "title": "Analysis and strategy",
-            "description": ""
+            "description": "We start with a briefing: we agree on the goals, structure and visual style of the website and form a preliminary estimate of the budget and deadlines."
           },
           {
             "id": "agreement",
-            "title": "",
-            "description": ""
+            "title": "Agreement on terms and conditions",
+            "description": "If necessary, we conclude a contract in which we clearly specify the scope of work, deadlines, cost and rules of cooperation."
           },
           {
             "id": "prepayment",
-            "title": "",
-            "description": ""
+            "title": "Project launch",
+            "description": "After confirming the terms, you make a 30% prepayment, I reserve the time and proceed with the project implementation."
           },
           {
             "id": "development",
-            "title": "",
-            "description": ""
+            "title": "Website development",
+            "description": "I create and program websites, integrate your content, and check that everything works correctly on different devices and browsers."
           },
           {
             "id": "completion",
-            "title": "",
-            "description": ""
+            "title": "Launch and transfer",
+            "description": "I make final edits, publish the website, and provide access details and brief instructions on how to use it."
           },
           {
             "id": "support",
-            "title": "",
-            "description": ""
+            "title": "Support and development",
+            "description": "Upon request, I provide further support: updates, minor changes, and optimisation for stable and efficient website operation."
           }
         ]
     },
