@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { ChevronDown } from "lucide-react";
 
 export function TechnologyCard({ item, readMoreLabel }) { 
     return (
@@ -28,9 +29,10 @@ export function TechnologyCard({ item, readMoreLabel }) {
                         href={item.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        
+                        className="flex flex-row items-center gap-[8px] !fill-red hover:text-[var(--color-electric-violet)] "
                     >
-                        {readMoreLabel}
+                        {readMoreLabel} 
+                        <ChevronDown  size={20} className="-rotate-90 ml-[4px]"/>
                     </Link>
                 )}
             </div>

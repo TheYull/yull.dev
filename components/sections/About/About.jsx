@@ -3,6 +3,7 @@
 import { Container } from "@/components/ui/Container";
 import { useTranslations } from "next-intl";
 import { UIButton } from "@/components/ui/Button";
+import { ChevronDown } from "lucide-react";
 
 export function About() {
     const t = useTranslations("about");
@@ -28,7 +29,7 @@ export function About() {
                         variant="outline"
                         className="flex gap-[8px] !border-0"
                     >
-                    Button   <img src="/elements/btn_arrow.svg" alt="arrow" />
+                    Button   <ChevronDown  size={20} className="-rotate-90 ml-[4px]"/>
                     </UIButton>
                     
                 </div>
