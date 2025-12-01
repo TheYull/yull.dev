@@ -43,7 +43,7 @@ export function Hero() {
               animate={{ x: 0, opacity: 1 }}
               transition={
                 reduce
-                  ? { duration: 0.2 }
+                  ? { duration: 0.1 }
                   : { type: "spring", stiffness: 120, damping: 18, mass: 0.6 }
               }
               className="h-[375px] sm:h-full flex align-center"
