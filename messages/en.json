@@ -248,7 +248,26 @@
     "portfolio": {
         "label": "portfolio",
         "title": "Projects",
-        "description": "Projects that I created with love and attention to detail."
+        "description": "Projects that I created with love and attention to detail.",
+        "cta": {
+            "more": "View all",
+            "less": "Show less" 
+        },
+        "itemsList": [
+            {
+                "id": "project3",
+                "description": "Group chat on Socket.io with registration and roles."
+            },
+            {
+                "id": "project2",
+                "description": "Search for films and TV series, filters, details pages."
+            },
+            {
+                "id": "project1",
+                "description": "Portfolio on Next.js 14 with animations and SEO."
+            }
+        ],
+        "moreBtn": "Read more"
     },
     "reviews": {
         "title": "Reviews",
