@@ -21,7 +21,7 @@ export function Craft() {
                     </div>
 
                     <div className="order-1 lg:order-2 flex sm:justify-center">
-                        <div className="h-[386px] lg:h-[640px] w-[600px]">
+                        <div className="w-full max-w-[600px] aspect-[15/16]">
                             <img src="/photo/img_2.avif" alt="Developer" className="h-full w-full object-cover rounded-[40px]"/>
                         </div>
                     </div>

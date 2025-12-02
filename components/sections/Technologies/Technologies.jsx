@@ -4,12 +4,14 @@ import { Container } from "@/components/ui/Container";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { TECHNOLOGIES } from "./technologiesConfig";
-import { ShowMoreButton } from "./ShowMoreButton";
+import { ShowMoreButton } from "@/components/ui/ShowMoreButton";
 import { TechnologiesGrid } from "./TechnologiesGrid";
+
+const INITIAL_VISIBLE = 4;
 
 export function Technologies() {
     const t = useTranslations("technologies");
-    const INITIAL_VISIBLE = 4;
+    
     const [showAll, setShowAll] = useState(false);
 
     // array from i18n
@@ -22,6 +24,10 @@ export function Technologies() {
     const visibleItems = showAll ? allItems : allItems.slice(0, INITIAL_VISIBLE);
 
     const hasMore = allItems.length > INITIAL_VISIBLE;
+    const handleToggle = () => {
+        setShowAll((prev) => !prev);
+    };
+
     
     return (
         <section className="section-shell section--light-black text-center">
@@ -39,7 +45,7 @@ export function Technologies() {
                     <ShowMoreButton
                         isExpanded={showAll}
                         hasMore={hasMore}
-                        onToggle={() => setShowAll((prev) => !prev)}
+                        onToggle={handleToggle}
                         labelMore={t("cta.more")}
                         labelLess={t("cta.less")}
                     />

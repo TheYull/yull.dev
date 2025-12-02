@@ -39,7 +39,7 @@
     "technologies": {
       "label": "Skills",
         "title": "technologies",
-        "text": "Technologies that I have studied and regularly use in my projects",
+        "text": "Technologies that I regularly use in my projects",
         "readMore": "Documentation",
         "cta": {
             "more": "View all",
@@ -48,14 +48,17 @@
         "descriptions": {
             "html5": "Semantic markup that gives structure and meaning to every page.",
             "css3": "Modern styling with layouts, animations and responsive design.",
+            "figma": "Interface design tool for team collaboration.",
             "javascript": "Programming language that powers interactions in the browser.",
-            "bootstrap": "UI framework with ready-made components for quick prototyping.",
-            "mui": "React UI library with accessible and customizable components.",
             "react": "Component-based library for building interactive interfaces.",
+            "bootstrap": "UI framework with ready-made components for quick prototyping.",
             "nextjs": "Full-stack React framework for fast, SEO-friendly applications.",
+            "mui": "React UI library with accessible and customizable components.",
             "i18next": "Translation engine that helps manage multilingual interfaces.",
             "tailwindcss": "Utility-first CSS that keeps styles consistent and maintainable.",
-            "motion": "Animation library for smooth transitions and micro-interactions."
+            "motion": "Animation library for smooth transitions and micro-interactions.",
+            "mysql": "Relational database management system for structured data storage.",
+            "photoshop": "Powerful image editing software for creating and enhancing graphics."
         }
     },
     "process": {
@@ -95,19 +98,179 @@
         ]
     },
     "price": {
-        "label": "price",
-        "title": "Pricing"
+        "label": "pricing",
+        "title": "services",
+        "cta": {
+            "more": "View all",
+            "less": "Show less" 
+        },
+        "itemsList": [
+          {
+            "id": "landing",
+            "title": "Landing page",
+            "price": "From $300",
+            "timeline": "From 1 to 3 weeks",
+            "description": "Single-page website built around one clear offer and a strong call-to-action to drive sign-ups or sales."
+          },
+          {
+            "id": "business-card",
+            "title": "Business card website",
+            "price": "From $350",
+            "timeline": "From 2 to 4 weeks",
+            "description": "Compact multi-page website that highlights your brand, services, portfolio and contact details."
+          },
+          {
+            "id": "corporate",
+            "title": "Corporate website",
+            "price": "From $550",
+            "timeline": "From 4 to 8 weeks",
+            "description": "Full-scale company website with service pages, team, case studies, blog and lead-generation forms."
+          },
+          {
+            "id": "catalog",
+            "title": "Catalog / content website",
+            "price": "From $400",
+            "timeline": "From 3 to 5 weeks",
+            "description": "Structured website with categories, filters and content: service catalog, article hub or portfolio collection."
+          },
+          {
+            "id": "ecommerce",
+            "title": "Online store",
+            "price": "From $650",
+            "timeline": "From 4 to 8 weeks",
+            "description": "E-commerce website with product catalog, cart, checkout flow and payment integrations."
+          },
+          {
+            "id": "web-app",
+            "title": "Mini web app / calculator",
+            "price": "From $280",
+            "timeline": "From 3 to 5 weeks",
+            "description": "Development of a small web app: price calculator, booking form, plan selector or interactive widget."
+          },
+          {
+            "id": "redesign",
+            "title": "Website redesign",
+            "price": "From $200",
+            "timeline": "From 2 to 4 weeks",
+            "description": "Refreshing the look and structure of your current website with modern UI, responsive layout and improved usability."
+          },
+          {
+            "id": "blog-module",
+            "title": "Blog / news module",
+            "price": "From $180",
+            "timeline": "From 1 to 3 weeks",
+            "description": "Implementing a blog or news section on your existing website with organized posts and categories."
+          },
+          {
+            "id": "localization",
+            "title": "Localization & multi-language",
+            "price": "From $120",
+            "timeline": "From 1 to 3 weeks",
+            "description": "Adding new languages, setting up locale switching and ensuring content displays correctly for different markets."
+          },
+          {
+            "id": "ui-library",
+            "title": "UI components & design system",
+            "price": "From $260",
+            "timeline": "From 2 to 4 weeks",
+            "description": "Building a reusable UI component library based on your design: buttons, forms, modals and more."
+          },
+          {
+            "id": "email-templates",
+            "title": "Email templates",
+            "price": "From $60",
+            "timeline": "From 3 to 7 days",
+            "description": "Responsive HTML email templates for newsletters, promos and automated campaigns, tested in major email clients."
+          },
+          {
+            "id": "analytics",
+            "title": "Analytics integration",
+            "price": "From $60",
+            "timeline": "From 1 to 3 days",
+            "description": "Integrating Google Analytics, Meta Pixel and key events to track leads, clicks and purchases."
+          },
+          {
+            "id": "technical-seo",
+            "title": "Technical SEO (basic)",
+            "price": "From $130",
+            "timeline": "From 1 to 2 weeks",
+            "description": "Configuring metadata, clean URLs, sitemap, robots.txt and core technical settings to improve indexability."
+          },
+          {
+            "id": "performance",
+            "title": "Performance optimization",
+            "price": "From $100",
+            "timeline": "Around 3–7 days",
+            "description": "Making your website load faster through image, code and caching optimization using modern performance best practices."
+          },
+          {
+            "id": "ux-review",
+            "title": "UX review",
+            "price": "From $150",
+            "timeline": "From 1 to 2 weeks",
+            "description": "Review of user flows, navigation and conversion paths with specific suggestions to improve usability and results."
+          },
+          {
+            "id": "audit",
+            "title": "Website audit",
+            "price": "From $90",
+            "timeline": "Around 3–5 days",
+            "description": "Detailed review of performance, structure and layout with a clear checklist of improvement actions."
+          },
+          {
+            "id": "maintenance",
+            "title": "Website maintenance",
+            "price": "From $70 / month",
+            "timeline": "Ongoing",
+            "description": "Ongoing content updates, small fixes, monitoring and technical support for your website."
+          },
+          {
+            "id": "bug-fixing",
+            "title": "Bug fixing",
+            "price": "From $15 / hour (min. 2 hours)",
+            "timeline": "Timeline to be agreed",
+            "description": "Finding and fixing layout and frontend logic issues, responsive bugs, form problems and interactive glitches."
+          },
+          {
+            "id": "consulting",
+            "title": "Consulting",
+            "price": "From $20 / hour",
+            "timeline": "By appointment",
+            "description": "One-on-one sessions on website structure, tech stack choices, UX decisions and basic SEO strategy."
+          }
+        ]
     },
     "proposal":{
         "label": "Proposal",
-        "title": "Let's create a design together."
+        "title": "Let’s build your website together.",
+        "description": "A successful website starts with clear goals and transparent collaboration. Together, we’ll turn your ideas into a modern web experience — fast, user-friendly, and aligned with your business needs."
     },
     "portfolio": {
         "label": "portfolio",
-        "title": "Portfolio"
+        "title": "Projects",
+        "description": "Projects that I created with love and attention to detail.",
+        "cta": {
+            "more": "View all",
+            "less": "Show less" 
+        },
+        "itemsList": [
+            {
+                "id": "project3",
+                "description": "Group chat on Socket.io with registration and roles."
+            },
+            {
+                "id": "project2",
+                "description": "Search for films and TV series, filters, details pages."
+            },
+            {
+                "id": "project1",
+                "description": "Portfolio on Next.js 14 with animations and SEO."
+            }
+        ],
+        "moreBtn": "Read more"
     },
     "reviews": {
-        "title": "",
+        "title": "Reviews",
         "subtitle": ""
     },
     "faqs": {
@@ -116,8 +279,16 @@
     },
     "contacts": {
         "label": "contacts",
-        "title": "",
-        "subtitle": ""
+        "title": "Let’s bring your project to life",
+        "subtitle": "Write a few words about your website or web project, and I will be happy to help you.",
+        "form": {
+            "name": "Your Name",
+            "email": "Your Email",
+            "message": "Your Message",
+            "submit": "Send Message",
+            "success": "Thank you for reaching out! I'll get back to you soon.",
+            "error": "Oops! Something went wrong. Please try again."
+        }
     },
     "footer": {
 

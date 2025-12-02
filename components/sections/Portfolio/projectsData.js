@@ -1,26 +1,26 @@
 export const PROJECTS = [
   {
-    id: "movie-library",
+    id: "project3",
+    title: "Yull.dev",
+    image: "/projects/portfolio.png",
+    href: "https://yull.netlify.app/",
+    repo: "https://github.com/TheYull/yull.dev", 
+    tech: "Next.js, Tailwind, Framer Motion",
+  },
+  {
+    id: "project2",
     title: "Movie Library",
-    description: "Пошук фільмів і серіалів з TMDB, фільтри, сторінки деталей.",
-    image: "/images/projects/movie-library.png", // поставиш свої
-    href: "/projects/movie-library",            // або на гіт: "https://github.com/..."
+    image: "/projects/movie_lb.png",
+    href: "https://theyull.github.io/Movie_Library/",
+    repo: "https://github.com/TheYull/Movie_Library",
     tech: "React, Redux Toolkit, TMDB API",
   },
   {
-    id: "chat-app",
+    id: "project1",
     title: "Real-time Chat",
-    description: "Груповий чат на Socket.io з реєстрацією і ролями.",
-    image: "/images/projects/chat-app.png",
-    href: "/projects/chat-app",
+    image: "/projects/chat-project.png",
+    href: "#",
+    repo: "#",
     tech: "React, Node.js, MySQL, Socket.io",
-  },
-  {
-    id: "portfolio",
-    title: "Yull.dev",
-    description: "Портфоліо на Next.js 14 з анімаціями і SEO.",
-    image: "/images/projects/portfolio.png",
-    href: "/projects/portfolio",
-    tech: "Next.js, Tailwind, Framer Motion",
   },
 ];
