@@ -21,7 +21,7 @@ export function Hero() {
             <div className="flex gap-[10px]">
               <UIButton
                 as="a"
-                href="#projects"
+                href="#portfolio"
                 variant="solid"
               >
                 {t("primary")}

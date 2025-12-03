@@ -3,8 +3,9 @@ import { useTranslations } from "next-intl";
 import { NAV, LINK_FOUR } from "./NavLinks";
 import { LinkFour } from "./LinkFour/LinkFour";
 
-export function MainNav({ className = "", locale }) {
+export function MainNav({ className = "", locale, othersMenuProps }) {
   const t = useTranslations("header");
+  const othersProps = othersMenuProps || {};
 
     return (
     <nav
@@ -29,8 +30,11 @@ export function MainNav({ className = "", locale }) {
         </Link>
       ))}
 
-      <LinkFour href={`/${locale}${LINK_FOUR.href}`}
-        label={t(`nav.${LINK_FOUR.key}`)} />
+        <LinkFour
+          href={`/${locale}${LINK_FOUR.href}`}
+          label={t(`nav.${LINK_FOUR.key}`)}
+          {...othersProps}
+        />
     </nav>
   );
 }
