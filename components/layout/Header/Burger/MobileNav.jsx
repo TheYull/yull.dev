@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { MainNav } from "../Links/MainNav";
 import { useBurger } from "./BurgerContext";
 
-export function MobileNav({ className = "" }) {
+export function MobileNav({ className = "", locale, othersMenuProps }) {
     const { isOpen } = useBurger();
 
     return (
@@ -17,8 +17,12 @@ export function MobileNav({ className = "" }) {
                         transition={{ duration: 0.25 }}
                         className="lg:hidden bg-[var(--color-scheme-2-background)] shadow-md"
                     >
-                        <Container>
-                            <MainNav className="flex flex-col items-start gap-[28px] py-[28px]" />
+                        <Container className="px-[20px]">
+                            <MainNav
+                                className="flex flex-col items-start gap-[28px] py-[28px]"
+                                locale={locale}
+                                othersMenuProps={othersMenuProps}
+                            />
                         </Container>
                     </motion.nav>
                 )}

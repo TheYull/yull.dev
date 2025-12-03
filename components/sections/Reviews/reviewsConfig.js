@@ -1,0 +1,42 @@
+export const REVIEWS = [
+{
+    id: "5",
+    name: "Name Surname",
+    position: "USA, Company name",
+    image: "/people/p1.avif",
+    text: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    network_img: "/people/network/upwork.svg",
+},
+{
+    id: "4",
+    name: "Name Surname",
+    position: "USA, Company name",
+    image: "/people/p2.avif",
+    text: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    network_img: "/people/network/fiverr.svg",
+},
+{
+    id: "3",
+    name: "Name Surname",
+    position: "Ukraine, Company name",
+    image: "/people/p3.avif",
+    text: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    network_img: "/people/network/linkedin.svg",
+},
+{
+    id: "2",
+    name: "Name Surname",
+    position: "USA, Company name",
+    image: "/people/p4.avif",
+    text: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    network_img: "/people/network/telegram.svg",
+},
+{
+    id: "1",
+    name: "Name Surname",
+    position: "Canada, Company name",
+    image: "/people/p5.avif",
+    text: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    network_img: "/people/network/upwork.svg",
+},
+]

@@ -126,12 +126,13 @@
             "timeline": "From 4 to 8 weeks",
             "description": "Full-scale company website with service pages, team, case studies, blog and lead-generation forms."
           },
+          
           {
-            "id": "catalog",
-            "title": "Catalog / content website",
-            "price": "From $400",
-            "timeline": "From 3 to 5 weeks",
-            "description": "Structured website with categories, filters and content: service catalog, article hub or portfolio collection."
+            "id": "redesign",
+            "title": "Website redesign",
+            "price": "From $200",
+            "timeline": "From 2 to 4 weeks",
+            "description": "Refreshing the look and structure of your current website with modern UI, responsive layout and improved usability."
           },
           {
             "id": "ecommerce",
@@ -141,19 +142,20 @@
             "description": "E-commerce website with product catalog, cart, checkout flow and payment integrations."
           },
           {
+            "id": "catalog",
+            "title": "Catalog / content website",
+            "price": "From $400",
+            "timeline": "From 3 to 5 weeks",
+            "description": "Structured website with categories, filters and content: service catalog, article hub or portfolio collection."
+          },
+          {
             "id": "web-app",
-            "title": "Mini web app / calculator",
+            "title": "Mini web app",
             "price": "From $280",
             "timeline": "From 3 to 5 weeks",
             "description": "Development of a small web app: price calculator, booking form, plan selector or interactive widget."
           },
-          {
-            "id": "redesign",
-            "title": "Website redesign",
-            "price": "From $200",
-            "timeline": "From 2 to 4 weeks",
-            "description": "Refreshing the look and structure of your current website with modern UI, responsive layout and improved usability."
-          },
+          
           {
             "id": "blog-module",
             "title": "Blog / news module",
@@ -190,7 +192,7 @@
             "description": "Integrating Google Analytics, Meta Pixel and key events to track leads, clicks and purchases."
           },
           {
-            "id": "technical-seo",
+            "id": "seo",
             "title": "Technical SEO (basic)",
             "price": "From $130",
             "timeline": "From 1 to 2 weeks",
@@ -211,7 +213,7 @@
             "description": "Review of user flows, navigation and conversion paths with specific suggestions to improve usability and results."
           },
           {
-            "id": "audit",
+            "id": "site-audit",
             "title": "Website audit",
             "price": "From $90",
             "timeline": "Around 3–5 days",
@@ -232,8 +234,8 @@
             "description": "Finding and fixing layout and frontend logic issues, responsive bugs, form problems and interactive glitches."
           },
           {
-            "id": "consulting",
-            "title": "Consulting",
+            "id": "consultation",
+            "title": "Consultation",
             "price": "From $20 / hour",
             "timeline": "By appointment",
             "description": "One-on-one sessions on website structure, tech stack choices, UX decisions and basic SEO strategy."
@@ -271,7 +273,7 @@
     },
     "reviews": {
         "title": "Reviews",
-        "subtitle": ""
+        "subtitle": "Real project experiences from clients"
     },
     "faqs": {
         "title": "FAQs",

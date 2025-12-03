@@ -10,8 +10,8 @@ export function Reviews() {
         <section className="section-shell section--pink hidden">
             <Container>
                 <div id="reviews">
-                    {/* <h6>{t("label")}</h6> */}
-                    {/* <h2>{t("title")}</h2> */}
+                    <h3>{t("title")}</h3>
+                    <p>{t("subtitle")}</p>
                 </div>
             </Container>
         </section>
