@@ -7,24 +7,6 @@ export function LinkFour({ label, isOpen, onOpen, onToggle }) {
   
   return (
     <div className="relative flex items-center gap-2">
-      {/* <Link
-        href={href}
-        className="
-          lg:hidden
-          flex gap-[9px] items-center 
-          font-normal text-[18px] 
-          leading-[150%] 
-          text-[var(--color-scheme-2-text)] 
-          no-underline 
-          transition-transform duration-200
-          hover:scale-105
-          active:text-[var(--color-blue-lighter)]"
-      >
-        <span>{ label }</span>
-        <ChevronDown
-          size={20}
-        />
-      </Link> */}
 
       <button
         type="button"
