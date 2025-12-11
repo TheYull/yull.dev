@@ -28,7 +28,7 @@ export function Hero() {
               </UIButton>
               <UIButton
                 as="a"
-                href="#contact"
+                href="#connect"
                 variant="outline"
               >
                 {t("secondary")}

@@ -8,11 +8,9 @@ export function ProcessTimelineItem({ step, index, Icon, totalSteps }) {
 
     return (
         <li className="flex ">
-
             <div className="flex items-start lg:gap-[50px] gap-[16px]">
-
                 <div className="flex flex-col gap-[16px] items-center ">
-
+                    
                     <div className="flex h-[48px] w-[48px] items-center justify-center">
                         {Icon && <Icon aria-hidden="true" className=" w-[48px] h-[48px]" />}
                     </div>

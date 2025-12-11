@@ -18,9 +18,9 @@ export function Process() {
                         <h2>{t("title")}</h2>
 
                         <div className="flex-row">
-                            <UIButton as="a" href="#" variant="outline">Button</UIButton>
-                            <UIButton as="a" href="#" variant="outline" className="flex gap-[8px] !border-0 mt-[16px]">
-                                Button
+                            <UIButton as="a" href="#" variant="outline">{t("cta.btn1")}</UIButton>
+                            <UIButton as="a" href="#connect" variant="outline" className="flex gap-[8px] !border-0 mt-[16px]">
+                                {t("cta.btn2")}
                                 <ChevronDown size={20} className="-rotate-90 ml-[4px]" />
                             </UIButton>
 

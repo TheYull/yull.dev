@@ -1,7 +1,6 @@
 "use client";
 import { Container } from "@/components/ui/Container";
 import { useTranslations } from "next-intl";
-import { UIButton } from "@/components/ui/Button";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { ContactForm } from "./ContactForm";
 
@@ -13,7 +12,7 @@ export function Connect() {
             <Container>
                 <div id="connect" className="grid lg:grid-cols-2 lg:gap-[80px] justify-items-start">
                 
-                    <div className="sm:pb-[48px]">
+                    <div className="pb-[48px] lg:pb-0">
                         <h6>{t("label")}</h6>
                         <h3>{t("title")}</h3>
                         <p className="pb-[24px]">{t("subtitle")}</p>

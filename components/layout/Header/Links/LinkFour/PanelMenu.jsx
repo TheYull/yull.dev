@@ -4,6 +4,7 @@ import { Container } from "@/components/ui/Container";
 // import { PROJECTS } from "@/components/sections/Portfolio/projectsData";
 // import { ProjectItem } from "@/components/sections/Portfolio/ProjectItem";
 import { AnimatePresence, motion } from "framer-motion";
+import { PanelMenuItems } from "./PanelMenuItems";
 
 export function PanelMenu({ isOpen, onClose }) {
 
@@ -27,9 +28,7 @@ export function PanelMenu({ isOpen, onClose }) {
                             role="region"
                             aria-label="Others panel"
                     >
-                                <div className="section--black lg:px-[64px] px-[20px] lg:py-[24px] py-[16px]">
-                                    <p>text content</p>
-                            </div>
+                                <PanelMenuItems />s
                             
                         </motion.div>
                     )}

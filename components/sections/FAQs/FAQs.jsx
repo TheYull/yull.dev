@@ -9,8 +9,10 @@ export function FAQs() {
         <section className="section-shell section--black hidden">
             <Container>
                 <div id="faqs">
-                    {/* <h6>{t("label")}</h6> */}
-                    {/* <h2>{t("title")}</h2> */}
+                    <h3>{t("title")}</h3>
+                    <p>{t("subtitle")}</p>
+
+                    
                 </div>
             </Container>
         </section>

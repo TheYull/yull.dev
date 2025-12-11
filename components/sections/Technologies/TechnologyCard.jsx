@@ -20,7 +20,7 @@ export function TechnologyCard({ item, readMoreLabel }) {
                 />
             </div>
 
-            <div className=" md:min-w-0 ">
+            <div className="md:flex-1 md:min-w-0 ">
                 <span className="border-1 bg-transparent py-[4px] px-[10px] rounded-full">{item.category}</span>
                 <h4 className="pt-[10px]">{item.name}</h4>
                 <p className="pb-[24px]">{item.description}</p>
@@ -29,7 +29,7 @@ export function TechnologyCard({ item, readMoreLabel }) {
                         href={item.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex flex-row items-center gap-[8px] !fill-red hover:text-[var(--color-electric-violet)] "
+                        className="flex flex-row items-center gap-[8px] !fill-red hover:text-[var(--color-blue-lighter)] "
                     >
                         {readMoreLabel} 
                         <ChevronDown  size={20} className="-rotate-90 ml-[4px]"/>
