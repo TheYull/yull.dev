@@ -21,15 +21,15 @@ export function About() {
                         href="#"
                         variant="outline"
                     >
-                    Button
+                    {t("cta.btn1")}
                     </UIButton>
                     <UIButton
                         as="a"
-                        href="#"
+                        href="#connect"
                         variant="outline"
                         className="flex gap-[8px] !border-0"
                     >
-                    Button   <ChevronDown  size={20} className="-rotate-90 ml-[4px]"/>
+                    {t("cta.btn2")}   <ChevronDown  size={20} className="-rotate-90 ml-[4px]"/>
                     </UIButton>
                     
                 </div>

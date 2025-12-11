@@ -12,6 +12,8 @@ export function Reviews() {
                 <div id="reviews">
                     <h3>{t("title")}</h3>
                     <p>{t("subtitle")}</p>
+
+                    
                 </div>
             </Container>
         </section>

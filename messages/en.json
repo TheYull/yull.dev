@@ -9,13 +9,14 @@
         "blog": "Blog"
     },
     "cta": {
-        "hire": "Hire me",
-        "download": "Download CV"
+      "btn1": "Button",
+      "btn2": "Contact"
     }
   },
   "hero": {
     "title": "Creating modern web solutions for business",
     "subtitle": "Development of interfaces in React/Next.js with responsive layout for mobile devices. Structured component organization with reusability and clear naming. Animation and section adjustments according to the provided design.",
+    
     "primary": "Projects",
     "secondary": "Contact"
   },
@@ -24,7 +25,11 @@
     },
   "about": {
         "label": "About me",
-        "title": "Front-end development focused on intuitive interfaces and business goals. Websites and landing pages on React/Next.js with a well-thought-out structure, adaptability, and micro-animations that support the brand and do not overload the user."
+        "title": "Front-end development focused on intuitive interfaces and business goals. Websites and landing pages on React/Next.js with a well-thought-out structure, adaptability, and micro-animations that support the brand and do not overload the user.",
+        "cta": {
+          "btn1": "Button",
+          "btn2": "Contact"
+        }
   },
   "craft": {
         "title": "I am a frontend developer.",
@@ -42,8 +47,8 @@
         "text": "Technologies that I regularly use in my projects",
         "readMore": "Documentation",
         "cta": {
-            "more": "View all",
-            "less": "Show less" 
+          "more": "View all",
+          "less": "Show less" 
         },
         "descriptions": {
             "html5": "Semantic markup that gives structure and meaning to every page.",
@@ -64,6 +69,10 @@
     "process": {
         "label": "Cooperation",
         "title": "Process",
+        "cta": {
+          "btn1": "Button",
+          "btn2": "Contact"
+        },
         "stepsList": [
           {
             "id": "strategy",
@@ -98,11 +107,11 @@
         ]
     },
     "price": {
-        "label": "pricing",
+        "label": "Packages",
         "title": "services",
         "cta": {
-            "more": "View all",
-            "less": "Show less" 
+          "more": "View all",
+          "less": "Show less" 
         },
         "itemsList": [
           {
@@ -126,7 +135,6 @@
             "timeline": "From 4 to 8 weeks",
             "description": "Full-scale company website with service pages, team, case studies, blog and lead-generation forms."
           },
-          
           {
             "id": "redesign",
             "title": "Website redesign",
@@ -155,7 +163,6 @@
             "timeline": "From 3 to 5 weeks",
             "description": "Development of a small web app: price calculator, booking form, plan selector or interactive widget."
           },
-          
           {
             "id": "blog-module",
             "title": "Blog / news module",
@@ -245,15 +252,19 @@
     "proposal":{
         "label": "Proposal",
         "title": "Let’s build your website together.",
-        "description": "A successful website starts with clear goals and transparent collaboration. Together, we’ll turn your ideas into a modern web experience — fast, user-friendly, and aligned with your business needs."
+        "description": "A successful website starts with clear goals and transparent collaboration. Together, we’ll turn your ideas into a modern web experience — fast, user-friendly, and aligned with your business needs.",
+        "cta": {
+          "btn1": "Button",
+          "btn2": "Contact"
+        }
     },
     "portfolio": {
-        "label": "portfolio",
+        "label": "Portfolio",
         "title": "Projects",
         "description": "Projects that I created with love and attention to detail.",
         "cta": {
-            "more": "View all",
-            "less": "Show less" 
+          "more": "View all",
+          "less": "Show less" 
         },
         "itemsList": [
             {
@@ -279,17 +290,17 @@
         "title": "FAQs",
         "subtitle": ""
     },
-    "contacts": {
-        "label": "contacts",
+    "connect": {
+        "label": "Connect",
         "title": "Let’s bring your project to life",
         "subtitle": "Write a few words about your website or web project, and I will be happy to help you.",
         "form": {
-            "name": "Your Name",
-            "email": "Your Email",
-            "message": "Your Message",
-            "submit": "Send Message",
-            "success": "Thank you for reaching out! I'll get back to you soon.",
-            "error": "Oops! Something went wrong. Please try again."
+          "name": "Your Name",
+          "email": "Your Email",
+          "message": "Your Message",
+          "submit": "Send Message",
+          "success": "Thank you for reaching out! I'll get back to you soon.",
+          "error": "Oops! Something went wrong. Please try again."
         }
     },
     "footer": {

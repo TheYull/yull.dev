@@ -27,7 +27,7 @@ export function PriceSection({ items }) {
 
                     <p className="font-semibold text-[20px]">{item.price}</p>
 
-                    <p className="mb-1 text-sm opacity-70">{item.timeline}</p>
+                    <p className="mb-1 text-sm opacity-70 text-[var(--color-neutral-light)]">{item.timeline}</p>
                 </article>
             ))}
         </div>

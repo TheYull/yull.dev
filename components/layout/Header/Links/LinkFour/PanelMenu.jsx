@@ -1,8 +1,10 @@
 "use client";
 
+import { Container } from "@/components/ui/Container";
 // import { PROJECTS } from "@/components/sections/Portfolio/projectsData";
 // import { ProjectItem } from "@/components/sections/Portfolio/ProjectItem";
 import { AnimatePresence, motion } from "framer-motion";
+import { PanelMenuItems } from "./PanelMenuItems";
 
 export function PanelMenu({ isOpen, onClose }) {
 
@@ -25,10 +27,8 @@ export function PanelMenu({ isOpen, onClose }) {
                             onMouseLeave={onClose}
                             role="region"
                             aria-label="Others panel"
-                        >
-                                <div className="section--black">
-                                    <p>text text</p>
-                                </div>
+                    >
+                                <PanelMenuItems />s
                             
                         </motion.div>
                     )}

@@ -45,7 +45,7 @@ export function PortfolioCard({ items, t }) {
                    
                     <h5 className="font-semibold !text-xl pt-[16px]">{item.title}</h5>
                     <p>{item.description}</p>
-                    <p>{item.tech}</p>
+                    <p className="pt-[10px] text-[var(--color-neutral)]">{item.tech}</p>
 
                     {item.href && (
                         <UIButton
@@ -54,7 +54,7 @@ export function PortfolioCard({ items, t }) {
                             target="_blank"
                             rel="noopener noreferrer"
                             variant="outline"
-                            className="flex gap-[8px] !border-0 mt-[16px] !p-0 active:bg-transparent"
+                            className="flex gap-[8px] !border-0 mt-[16px] !p-0 active:bg-transparent hover:text-[var(--color-blue-lighter)]"
                         >
                             {t("moreBtn")}
                             <ChevronDown size={20} className="-rotate-90 ml-[4px]" />
