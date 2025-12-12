@@ -9,7 +9,7 @@
         "blog": "Blog"
     },
     "cta": {
-      "btn1": "Button",
+      "btn1": "Services",
       "btn2": "Contact"
     }
   },
@@ -17,8 +17,8 @@
     "title": "Creating modern web solutions for business",
     "subtitle": "Development of interfaces in React/Next.js with responsive layout for mobile devices. Structured component organization with reusability and clear naming. Animation and section adjustments according to the provided design.",
     
-    "primary": "Projects",
-    "secondary": "Contact"
+    "primary": "Contact",
+    "secondary": "My projects"
   },
   "logos": {
         "title": "Used in project development"
@@ -27,7 +27,7 @@
         "label": "About me",
         "title": "Front-end development focused on intuitive interfaces and business goals. Websites and landing pages on React/Next.js with a well-thought-out structure, adaptability, and micro-animations that support the brand and do not overload the user.",
         "cta": {
-          "btn1": "Button",
+          "btn1": "Services",
           "btn2": "Contact"
         }
   },
@@ -70,8 +70,8 @@
         "label": "Cooperation",
         "title": "Process",
         "cta": {
-          "btn1": "Button",
-          "btn2": "Contact"
+          "btn1": "Get project estimate",
+          "btn2": "Have questions?"
         },
         "stepsList": [
           {
@@ -106,7 +106,7 @@
           }
         ]
     },
-    "price": {
+    "services": {
         "label": "Packages",
         "title": "services",
         "cta": {
@@ -254,8 +254,8 @@
         "title": "Let’s build your website together.",
         "description": "A successful website starts with clear goals and transparent collaboration. Together, we’ll turn your ideas into a modern web experience — fast, user-friendly, and aligned with your business needs.",
         "cta": {
-          "btn1": "Button",
-          "btn2": "Contact"
+          "btn1": "Send request",
+          "btn2": "Write on Telegram"
         }
     },
     "portfolio": {
@@ -269,7 +269,7 @@
         "itemsList": [
             {
                 "id": "project3",
-                "description": "Group chat on Socket.io with registration and roles."
+                "description": "Portfolio on Next.js 14 with animations and SEO."
             },
             {
                 "id": "project2",
@@ -277,7 +277,7 @@
             },
             {
                 "id": "project1",
-                "description": "Portfolio on Next.js 14 with animations and SEO."
+                "description": "Group chat on Socket.io with registration and roles."
             }
         ],
         "moreBtn": "Read more"
@@ -288,7 +288,72 @@
     },
     "faqs": {
         "title": "FAQs",
-        "subtitle": ""
+        "subtitle": "The most common questions about my work, approach, and how the process is organised.",
+        "itemsList": [
+          {
+            "id": "faq1",
+            "question": "What technologies do you use for frontend development?",
+            "answer": "I specialize in frontend development using React and Next.js for building modern, fast, and responsive web interfaces. I also work with HTML5, CSS3 (Tailwind CSS, MUI), and JavaScript to ensure high-quality layouts and functionality."
+          },
+          {
+            "id": "faq2",
+            "question": "Can you help with SEO optimization for my website?",
+            "answer": "Yes, I can assist with basic technical SEO optimization, including metadata setup, SEO-friendly URLs, sitemaps, robots.txt, and proper heading structure. This will help improve your site's indexing in search engines."
+          },
+          {
+            "id": "faq3",
+            "question": "How do you ensure the website is responsive on different devices?",
+            "answer": "I use modern layout techniques like Flexbox, CSS Grid, and media queries to create responsive designs. This ensures your website will look great on all devices, from mobile phones to desktops."
+          },
+          {
+            "id": "faq4",
+            "question": "Do you provide support after the website is launched?",
+            "answer": "Yes, I offer post-launch support, including content updates, bug fixes, and performance optimization to ensure your site runs smoothly after deployment."
+          },
+          {
+            "id": "faq5",
+            "question": "How long does it take to build a website?",
+            "answer": "The development time depends on the complexity of the project. Typically, a landing page takes 2–4 weeks, and a small business website can take 3–5 weeks. Exact timelines will be determined after discussing your requirements and goals."
+          },
+          {
+            "id": "faq6",
+            "question": "What do you need to start working on my project?",
+            "answer": "To start, I need a brief with your goals, required features, design (if available), and any content you want to include on the site. The more information you provide, the better I can understand your needs."
+          },
+          {
+            "id": "faq7",
+            "question": "Can I make changes to the website after it's launched?",
+            "answer": "Yes, after launch, you will be able to update the content on your own. If you need help with technical aspects or adding new features, I am always available for support."
+          },
+          {
+            "id": "faq8",
+            "question": "What payment methods do you accept?",
+            "answer": "I accept payments via bank transfer, PayPal, or other popular payment systems. Payment details will be discussed when we finalize the terms of the collaboration."
+          },
+          {
+            "id": "faq9",
+            "question": "Do you work with international clients?",
+            "answer": "Yes, I work with clients from all around the world. We can communicate in both English and Ukrainian, and I’m happy to adjust to your time zone for meetings and project updates."
+          },
+          {
+            "id": "faq10",
+            "question": "What is the process of working with you?",
+            "answer": "The process starts with discussing your goals and requirements. Then we agree on terms, sign a contract (if needed), and start development. I keep you updated on progress and involve you in key decisions."
+          },
+          {
+            "id": "faq11",
+            "question": "Can I see your previous work?",
+            "answer": "Yes, you can view my portfolio on this site, which showcases some of my previous projects. If you have specific requests or would like to discuss your project, feel free to reach out."
+          },
+          {
+            "id": "faq12",
+            "question": "What factors affect the price of a project?",
+            "answer": "The price depends on several factors: the number of pages, design complexity, features (forms, filters, integrations, animations), existing content, and deadlines. After the brief, I provide one or two budget options: a basic solution and an expanded version with additional features. Payment is staged: an upfront deposit, and the final payment after project completion."
+          }
+        ],
+        "title2": "Still have questions?",
+        "subtitle2": "If you didn’t find your answer here, reach out and I’ll be happy to help with your specific request."
+
     },
     "connect": {
         "label": "Connect",
@@ -305,20 +370,5 @@
     },
     "footer": {
 
-    },
-
-
-    "blog": {
-    "title": "Blog",
-    "posts": {
-        "nextjs-i18n-setup": {
-        "title": "Setting up i18n in Next.js App Router",
-        "excerpt": "How I added multi-language routing and header translations."
-        },
-        "react-movie-library-filters": {
-        "title": "Reusable filters for a React movie library",
-        "excerpt": "Turning TMDB data into categories and filters."
-        }
     }
-}
 }

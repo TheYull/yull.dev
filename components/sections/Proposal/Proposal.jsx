@@ -16,8 +16,8 @@ export function Proposal() {
                         <p className="pb-[32px]">{t("description")}</p>
                         
                         <div className="flex-row">
-                            <UIButton as="a" href="#" variant="outline">{t("cta.btn1")}</UIButton>
-                            <UIButton as="a" href="#connect" variant="outline" className="flex gap-[8px] !border-0 mt-[16px]">
+                            <UIButton as="a" href="#connect" variant="outline">{t("cta.btn1")}</UIButton>
+                            <UIButton as="a" href="https://t.me/moonlight_in_the_darks" target="_blank" variant="outline" className="flex gap-[8px] !border-0 mt-[16px]">
                                 {t("cta.btn2")}
                                 <ChevronDown size={20} className="-rotate-90 ml-[4px]" />
                             </UIButton>

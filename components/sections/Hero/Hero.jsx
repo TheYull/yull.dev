@@ -21,14 +21,14 @@ export function Hero() {
             <div className="flex gap-[10px]">
               <UIButton
                 as="a"
-                href="#portfolio"
+                href="#connect"
                 variant="solid"
               >
                 {t("primary")}
               </UIButton>
               <UIButton
                 as="a"
-                href="#connect"
+                href="#portfolio"
                 variant="outline"
               >
                 {t("secondary")}
