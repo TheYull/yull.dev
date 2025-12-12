@@ -8,7 +8,7 @@ export function FAQs() {
     const items = t.raw("itemsList");
 
     return (
-        <section className="section-shell section--black hidden">
+        <section className="section-shell section--black ">
             <Container>
                 <div id="faqs">
                     <h3>{t("title")}</h3>

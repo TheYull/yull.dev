@@ -29,6 +29,9 @@ export function LinkFour({ label, isOpen, onOpen, onToggle }) {
         <span>{label}</span>
         <ChevronDown
           size={20}
+          className={`shrink-0 transition-transform duration-200 ${
+                    isOpen ? "rotate-180" : ""
+                    }`}
         />
       </button>
 
