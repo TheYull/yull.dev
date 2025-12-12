@@ -1,4 +1,4 @@
-export const PRICES = [
+export const SERVICES = [
     {
         id: "landing",
         image: "/price_img/landing.avif"
@@ -57,7 +57,7 @@ export const PRICES = [
     },
     {
         id: "ux-review",
-        image: "/price_img/ux-review.avif"
+        image: "/price_img/ui.avif"
     },
     {
         id: "site-audit",

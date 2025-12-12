@@ -38,7 +38,7 @@ export function Connect() {
                             </div>
                             <div className="flex gap-[16px]">
                                 <MapPin />
-                                <p>Cherkasy, Ukraine (remote)</p>
+                                <p> Cherkasy, Ukraine (remote)</p>
                             </div>
                             </div>
 

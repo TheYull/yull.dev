@@ -3,22 +3,21 @@
 import { Container } from "@/components/ui/Container";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
-import { PriceSection } from "./PriceSection";
-import { PRICES } from "./pricesConfig";
+import { ServicesSection } from "./ServicesSection";
+import { SERVICES } from "./servicesConfig";
 import { ShowMoreButton } from "@/components/ui/ShowMoreButton";
 
  // cards to show
     const INITIAL_VISIBLE = 6;
 
-export function Price() {
-    const t = useTranslations("price");
-
+export function Services() {
+    const t = useTranslations("services");
     const rawItems = t.raw("itemsList");
     const itemsFromI18n = Array.isArray(rawItems) ? rawItems : [];
 
     // i18n + img
     const items = itemsFromI18n.map((item) => {
-        const media = PRICES.find((m) => m.id === item.id);
+        const media = SERVICES.find((m) => m.id === item.id);
         return {
             ...item,
             image: media?.image ?? null,
@@ -40,11 +39,11 @@ export function Price() {
     return (
         <section className="section-shell section--light-black text-center">
             <Container>
-                <div id="price">
+                <div id="services">
                     <h6>{t("label")}</h6>
                     <h2>{t("title")}</h2>
 
-                    <PriceSection items={visibleItems} />
+                    <ServicesSection items={visibleItems} />
 
                     <ShowMoreButton
                         isExpanded={showAll}

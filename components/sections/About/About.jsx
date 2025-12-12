@@ -18,7 +18,7 @@ export function About() {
                 <div className="flex gap-[10px]">
                     <UIButton
                         as="a"
-                        href="#"
+                        href="#services"
                         variant="outline"
                     >
                     {t("cta.btn1")}

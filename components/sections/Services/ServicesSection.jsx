@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-export function PriceSection({ items }) {
+export function ServicesSection({ items }) {
     if (!Array.isArray(items)) return null;
 
     return (
