@@ -11,6 +11,23 @@ const siteMetadata = {
     "Yull.dev"
   ],
   authors: [{ name: "Yull" }],
+
+  //Robots
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  //Canonical + Hreflang
+  alternates: {
+    canonical: "https://yull.netlify.app/",
+    languages: {
+      en: "https://yull.netlify.app/en",
+      uk: "https://yull.netlify.app/uk",
+    },
+  },
+
+  // OpenGraph
   openGraph: {
     title: "Yull.dev — Frontend Developer Portfolio",
     description:
@@ -28,6 +45,8 @@ const siteMetadata = {
     locale: "en_US",
     type: "website"
   },
+
+  // Icons
   icons: {
     icon: [
       { url: "/favicon/favicon.svg", sizes: "any" },
