@@ -25,7 +25,7 @@ export function About() {
                     </UIButton>
                     <UIButton
                         as="a"
-                        href="#connect"
+                        href="#portfolio"
                         variant="outline"
                         className="flex gap-[8px] !border-0"
                     >

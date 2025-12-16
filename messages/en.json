@@ -10,14 +10,14 @@
     },
     "cta": {
       "btn1": "Services",
-      "btn2": "Contact"
+      "btn2": "Contact me"
     }
   },
   "hero": {
     "title": "Creating modern web solutions for business",
     "subtitle": "Development of interfaces in React/Next.js with responsive layout for mobile devices. Structured component organization with reusability and clear naming. Animation and section adjustments according to the provided design.",
     
-    "primary": "Contact",
+    "primary": "Get project estimate",
     "secondary": "My projects"
   },
   "logos": {
@@ -28,7 +28,7 @@
         "title": "Front-end development focused on intuitive interfaces and business goals. Websites and landing pages on React/Next.js with a well-thought-out structure, adaptability, and micro-animations that support the brand and do not overload the user.",
         "cta": {
           "btn1": "Services",
-          "btn2": "Contact"
+          "btn2": "View portfolio"
         }
   },
   "craft": {
@@ -284,7 +284,10 @@
     },
     "reviews": {
         "title": "Reviews",
-        "subtitle": "Real project experiences from clients"
+        "subtitle": "Real project experiences from clients",
+        "empty_title": "Testimonials are currently being published.",
+        "empty_subtitle": "Don't wait for the reviews-start your success story today!",
+        "cta": "Start Your Project"
     },
     "faqs": {
         "title": "FAQs",
