@@ -18,7 +18,7 @@ export function PanelMenu({ isOpen, onClose }) {
                         exit={{ opacity: 0, y: -8, height: 0 }}
                         transition={{ duration: 0.2, ease: "easeOut", }}
                             className="
-                                    
+                                    fixed
                                     w-full 
                                     bg-[var(--color-scheme-2-background)]
                                     overflow-hidden

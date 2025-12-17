@@ -24,7 +24,7 @@
         "title": "Used in project development"
     },
   "about": {
-        "label": "About me",
+        "label": "About",
         "title": "Front-end development focused on intuitive interfaces and business goals. Websites and landing pages on React/Next.js with a well-thought-out structure, adaptability, and micro-animations that support the brand and do not overload the user.",
         "cta": {
           "btn1": "Services",

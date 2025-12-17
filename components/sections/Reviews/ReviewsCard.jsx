@@ -3,9 +3,9 @@ import { Star, User } from "lucide-react";
 export function ReviewsCard({ reviews }) {
 
     return (
-        <div className="pt-[48px] flex gap-[64px]">
+        <div className="pt-[48px] flex justify-center gap-[64px]">
             {reviews.map((item) => (
-                <article key={item.id} className="min-w-[372px]">
+                <article key={item.id} className="md:w-[576px] w-[372px]" >
 
                     <div className="flex gap-1 pb-[32px]">
                     {[...Array(item.rating)].map((_, i) => (

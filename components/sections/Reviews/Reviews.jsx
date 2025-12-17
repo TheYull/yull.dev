@@ -1,15 +1,15 @@
 "use client";
 import { Container } from "@/components/ui/Container";
 import { useTranslations } from "next-intl";
-import { ReviewsCard } from "./ReviewsCard";
 import { EmptyReviews } from "./EmptyReviews";
 import { REVIEWS } from "./reviewsConfig";
+import { ReviewsSlider } from "./ReviewsSlider";
 
 export function Reviews({ reviews = [] }) {
+    const t = useTranslations("reviews");
+
     const list = reviews && reviews.length > 0 ? reviews : REVIEWS;
     const isEmpty = list.length === 0;
-
-    const t = useTranslations("reviews");
 
     return (
         <section className="section-shell section--pink ">
@@ -21,7 +21,7 @@ export function Reviews({ reviews = [] }) {
                     {isEmpty ? (
                         <EmptyReviews t={t} />
                     ): (
-                        <ReviewsCard reviews={list}/>    
+                        <ReviewsSlider reviews={list}/>    
                     )}
                     
                 </div>

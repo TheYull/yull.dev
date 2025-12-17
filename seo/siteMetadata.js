@@ -46,6 +46,16 @@ const siteMetadata = {
     type: "website"
   },
 
+  // Twitter
+  twitter: {
+    card: 'summary_large_image',
+    site: '@the_catttman',
+    creator: '@the_catttman',
+    title: 'YULL.DEV — React Developer Portfolio',
+    description: 'Frontend portfolio showcasing high-performance web applications built with Next.js and React.',
+    images: ['/og-image.png'],
+},
+
   // Icons
   icons: {
     icon: [

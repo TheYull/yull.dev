@@ -3,6 +3,7 @@ import { Container } from "@/components/ui/Container";
 import { useTranslations } from "next-intl";
 import { UIButton } from "@/components/ui/Button";
 import { ChevronDown } from "lucide-react";
+import Image from "next/image";
 export function Proposal() {
     const t = useTranslations("proposal");
 
@@ -24,9 +25,16 @@ export function Proposal() {
 
                         </div>
                     </div>
-                    <div className="w-full max-w-[600px] aspect-[15/16]  lg:pt-0 pt-[48px]">
-                        <img src="/photo/img_3.avif" alt="Developer" className="h-full w-full object-cover rounded-[40px]"/>
+                    <div className="relative w-full max-w-[600px] sm:max-h-[640px] aspect-[15/16] lg:pt-0 pt-[48px] mx-auto">
+                        <Image
+                            src="/photo/img_3.png"
+                            alt="Developer"
+                            fill
+                            sizes="(max-width: 640px) 100vw, 600px"
+                            className="object-cover rounded-[40px]"
+                        />
                     </div>
+
                 </div>
                 
             </Container>

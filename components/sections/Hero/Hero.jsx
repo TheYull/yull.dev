@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/Container";
 import { UIButton } from "@/components/ui/Button";
 import { motion, useReducedMotion } from "framer-motion";
+import Image from "next/image";
 
 export function Hero() {
   const t = useTranslations("hero");
@@ -37,23 +38,27 @@ export function Hero() {
         </div>
 
         
-        <div className="">
-          <motion.div
-              initial={reduce ? { opacity: 0 } : { x: 96, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={
-                reduce
-                  ? { duration: 0.1 }
-                  : { type: "spring", stiffness: 120, damping: 18, mass: 0.6 }
-              }
-              className="h-[375px] sm:h-full flex align-center"
+        <motion.div
+            initial={reduce ? { opacity: 0 } : { x: 96, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={
+              reduce
+                ? { duration: 0.1 }
+                : { type: "spring", stiffness: 120, damping: 18, mass: 0.6 }
+            }
+            className="sm:w-1/2 h-[375px] sm:h-auto"
           >
-            <div className="md:h-full w-full">
-              <img src="/photo/img_1.avif" alt="Developer" className="h-full w-full object-cover" />
+            <div className="relative w-full h-full">
+              <Image
+                src="/photo/img_1.png"
+                alt="Developer"
+                fill
+                priority
+                sizes="(max-width: 640px) 100vw, 50vw"
+                className="object-cover"
+              />
             </div>
           </motion.div>
-          
-        </div>
       </Container>
     </section>
   )
