@@ -1,6 +1,7 @@
 "use client";
 import { Container } from "@/components/ui/Container";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 export function Craft() {
     const t = useTranslations("craft");
@@ -21,9 +22,12 @@ export function Craft() {
                     </div>
 
                     <div className="order-1 lg:order-2 flex sm:justify-center">
-                        <div className="w-full max-w-[600px] aspect-[15/16]">
-                            <img src="/photo/img_2.avif" alt="Developer" className="h-full w-full object-cover rounded-[40px]"/>
+                        <div className="relative w-full max-w-[600px] sm:max-h-[640px] aspect-[15/16] lg:pt-0 pt-[48px] mx-auto">
+                            <Image src="/photo/img_2.png" alt="Developer" sizes="(max-width: 640px) 100vw, 600px" fill className="object-cover rounded-[40px]"/>
                         </div>
+
+                        
+
                     </div>
                 </div>  
             </Container>

@@ -15,7 +15,7 @@ export function MobileNav({ className = "", locale, othersMenuProps }) {
                         animate={{ height: "auto", opacity: 1 }}
                         exit={{ height: 0, opacity: 0 }}
                         transition={{ duration: 0.25 }}
-                        className="lg:hidden bg-[var(--color-scheme-2-background)] shadow-md"
+                        className="fixed z-50 w-full lg:hidden bg-[var(--color-scheme-2-background)] shadow-md"
                     >
                         <Container className="px-[20px]">
                             <MainNav

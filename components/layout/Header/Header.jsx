@@ -28,7 +28,7 @@ export default function Header({ locale }) {
     <BurgerProvider>
       {/* if fix on top --> sticky top-0 z-50 */}
 
-    <header className="section--black lg:px-[64px] px-[20px] lg:py-[26px] py-[20px] flex justify-center items-center">
+    <header className="sticky top-0 z-50 section--black lg:px-[64px] px-[20px] lg:py-[26px] py-[20px] flex justify-center items-center">
       <Container className="flex items-center justify-between">
 
         <div className="flex items-center">
